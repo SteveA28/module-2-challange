@@ -12,7 +12,7 @@ I used visual studio code to create a website portfolio following the example th
 
 Link to the deployed application: 
 
-https://stevea28.github.io/module-1-challange/
+https://github.com/SteveA28/module-2-challenge.git
 
 ## Credits
 
