@@ -1,0 +1,163 @@
+.header {
+  font-size: 50px;
+  border-style: solid;
+  background-color: rgba(49, 52, 61, 255);
+  height: 100px;
+  font-family: "Gill Sans";
+}
+
+body {
+  margin: 0;
+}
+
+.header .name {
+  margin-top: 15px;
+  background-color: rgba(146, 204, 205, 255);
+  color: rgb(73, 72, 72);
+  padding: 0 15px 0 150px;
+}
+
+.header ul {
+  margin-right: 75px;
+}
+
+.header .anchor {
+  border-bottom-style: solid;
+  border-bottom-width: 4px;
+  border-bottom-color: rgba(146, 204, 205, 255);
+  text-align: center;
+  margin: 0;
+}
+
+nav ul li a {
+  color: rgb(148, 228, 224);
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.image {
+  width: 100%;
+  height: 225px;
+  background-image: url("https://img.freepik.com/free-vector/minimal-geometric-stripe-shape-background_1409-1014.jpg?w=996&t=st=1697042300~exp=1697042900~hmac=dcdf992c4491b0fa0d6c4e1aec03976f6276c56aff52dff633ce83c8a6333335");
+}
+
+.image .coolSubtitle {
+  font-size: 40px;
+  background-color: rgba(146, 204, 205, 255);
+  color: rgba(49, 52, 61, 255);
+  text-align: center;
+  width: 450px;
+  margin: 135px 75px 0 0;
+  float: right;
+  font-weight: bold;
+}
+
+.content {
+  background-color: #ffff;
+  display: flex;
+  padding: 20px 30px 20px;
+}
+
+.contentTitle {
+  font-size: 30px;
+  text-align: right;
+  padding-right: 20px;
+  margin: 10px 20px;
+  width: 275px;
+  border-right-style: solid;
+  border-right-width: 5px;
+  border-right-color: rgb(58, 68, 112);
+  color: rgb(58, 68, 112);
+}
+
+.contentBody {
+  width: 100%;
+}
+
+.flex-container:first-child {
+  width: 100%;
+}
+.flex-container:first-child .flex-box {
+  width: 100%;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-container .flex-box {
+  width: 50%;
+  height: 250px;
+  background-color: grey;
+  margin: 5px;
+  border-radius: 8px;
+}
+
+.flex-container #surf {
+  background-image: url("https://i.imgur.com/E7eYYX0.png");
+}
+.flex-container #led-wall {
+  background-image: url("https://m.media-amazon.com/images/I/51FajZTTyLL._AC_SL1200_.jpg");
+}
+.flex-container #calculator {
+  background-image: url("https://png.pngtree.com/background/20230625/original/pngtree-function-calculator-buttons-tan-function-scientific-photo-picture-image_4050775.jpg");
+}
+
+.flex-container #puzzle {
+  background-image: url("https://static.toiimg.com/thumb/resizemode-4,width-1200,height-900,msid-70343696/70343696.jpg");
+}
+
+.flex-container #run-buddy {
+  background-image: url("https://png.pngtree.com/background/20210711/original/pngtree-dark-vector-abstract-background-picture-image_1159556.jpg");
+}
+
+.flex-container div:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.flex-container div .flex-box-tag {
+  margin: 0;
+  position: relative;
+  top: 150px;
+  background-color: rgba(146, 204, 205, 255);
+  color: rgb(73, 72, 72);
+  padding: 10px 10px;
+  height: 40px;
+  line-height: 40px;
+  width: 150px;
+  text-align: right;
+}
+
+.flex-container div .flex-box-tag h3,
+.flex-container div .flex-box-tag p {
+  margin: 0;
+  height: 50%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 10px;
+}
+
+.contact-me nav ul {
+  width: 100%;
+  text-align: center;
+  line-height: 200px;
+}
+.contact-me nav ul li a {
+  color: rgb(73, 72, 72);
+  padding-bottom: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 4px;
+  border-bottom-color: rgb(73, 72, 72);
+}
